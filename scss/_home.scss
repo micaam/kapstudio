@@ -1,0 +1,62 @@
+body {
+    font-family: Oswald;
+    font-size: 16pt;
+    font-weight: 300;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.flexNav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.mainButton {
+    list-style: none;
+    li {padding: 10px 50px;
+    font-size: 14pt;}
+    .active {
+        font-weight: 500;
+    }
+
+}
+
+.logo {
+    font-size: 16pt;
+    padding: 10px;
+}
+
+.imageBox {
+    display: flex;
+    width: 200px;
+    height: 150px;
+    margin: 0.5em;
+    overflow: hidden;
+    justify-content: center;
+  align-items: center;
+  img {
+      width: 200px;
+  }
+    }
+
+
+#home {
+    padding: 2em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-size: 14px;
+    color: $greyfoot;
+    text-align: center;
+    padding: 2em;
+}

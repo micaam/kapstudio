@@ -1,9 +1,11 @@
 //IMPORT
 @import "typeface";
 @import "colors";
+@import "mediaqueries";
 @import "home";
 
 
-body {
-    background-color: aqua;
+* {
+    margin:0px;
+    padding: 0px;
 }
