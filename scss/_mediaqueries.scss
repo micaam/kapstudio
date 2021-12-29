@@ -1,34 +1,38 @@
 /* MOBILE PHONE */
-@media only screen and (max-width: 600px)
-{}
+@media only screen and (max-width: 320px)
+{
+    .logo {
+        color: rgb(49, 105, 54);
+    }
+}
 
 /* TABLET */
-@media only screen and (max-width: 1024px)
-{}
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .mainButton {
+        li {
+            padding: 10px 20px;
+        }
+    }
+    .imageBox {
+        max-width: 90%;
+        }
+
+        .logo {
+            color: rgb(77, 79, 173);
+        }
+}
 
 /* DESKTOP */
-@media only screen and (min-width: 1200)
+@media only screen and (min-width: 1024px)
 {
-    .flexNav {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        padding: 5px 10px;
-    }
-    
-    .mainButton {
-        list-style: none;
-        li {padding: 10px 50px;
-        font-size: 14pt;}
-        .active {
-            font-weight: 500;
+        .imageBox {
+        max-width: 70%;
+        height: 350px;
+        margin: 0.5em;
         }
-    
-    }
-    
-    .logo {
-        font-size: 16pt;
-        padding: 10px;
-    }
+
+        .logo {
+            color: brown;
+        }
 }

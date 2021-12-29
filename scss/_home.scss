@@ -34,15 +34,12 @@ a {
 
 .imageBox {
     display: flex;
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    height: 300px;
     margin: 0.5em;
     overflow: hidden;
     justify-content: center;
-  align-items: center;
-  img {
-      width: 200px;
-  }
+    align-items: center;
     }
 
 
