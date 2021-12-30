@@ -11,7 +11,7 @@
         <header>
             <nav class="flexNav">
                 <div><a href="index.html"><h1 class="logo">KRIEGER ALBA POSSE</h1></a></div>
-                <div>
+                <div class="menu">
                     <ul class="flexNav mainButton">
                         <li><a href="estudio.html">ESTUDIO</a></li>
                         <li><a href="trabajos.html">TRABAJOS</a></li>
@@ -20,25 +20,43 @@
                         <li><a href="https://www.instagram.com/"><img src="img/ig.svg" alt="instagram" height="20px"></a></li>
                     </ul>
                 </div>
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
             </nav>
         </header>
+            <nav class="mobile-nav">
+                <li class="active"><a href="estudio.html">ESTUDIO</a></li>
+                <li><a href="trabajos.html">TRABAJOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="practica.html">PRÁCTICA</a></li>
+                <li><a href="https://www.instagram.com/"><img src="img/ig.svg" alt="instagram" height="20px"></a></li>
+            </nav>
 
     <section id="practica">
-        <div><h2>JEFE DE OBRA</h2></div>
-        <div>
-            <img src="img/jefedeobra1.jpg" alt="Nombre Apellido">
-            <img src="img/jefedeobra2.jpg" alt="Nombre Apellido">
-        </div>
-        <div><h2>DIRECCIÓN EJECUTIVA</h2></div>
-        <div>
-            <img src="img/direccionejecutiva1.jpg" alt="Nombre Apellido">
-            <img src="img/direccionejecutiva2.jpg" alt="Nombre Apellido">
+        <div class="container">
+            <div class="row margin-bottom">
+                <div class="title"><h2>JEFE DE OBRA</h2></div>
+                <div class="desc">
+                    <img src="img/jefedeobra1.jpg" alt="Nombre Apellido">
+                    <img src="img/jefedeobra2.jpg" alt="Nombre Apellido">
+                </div>
+            </div>
+            <div class="row margin-bottom">
+                <div class="title"><h2>DIRECCIÓN EJECUTIVA</h2></div>
+                <div class="desc">
+                    <img src="img/direccionejecutiva1.jpg" alt="Nombre Apellido">
+                    <img src="img/direccionejecutiva2.jpg" alt="Nombre Apellido">
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
         <p>Todos los derechos reservados.</p>
     </footer>
+
+    <script src="js/main.js"></script>
     
 </body>
 </html>

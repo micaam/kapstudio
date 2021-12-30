@@ -15,6 +15,7 @@
             font-size: 12pt;
         }
     }
+    
 }
 
 /* iPad */
@@ -44,6 +45,28 @@
     .hamburger {
         display: none;
     }
+
+    .title {
+        flex: 0 0 auto;
+        width: 23%;
+      }
+
+    .desc {
+        flex: 0 0 auto;
+        width: 30%;
+        }
+
+    #estudio {
+            margin: 6em 0em;
+        }
+    #contacto {
+        margin: 6em 0em 30em;
+    }
+
+    .margin-bottom {
+        margin-bottom: 3em;
+    }
+
 }
 
 /* iPad Pro */
@@ -70,6 +93,27 @@
         .hamburger {
             display: none;
         }
+        .title {
+            flex: 0 0 auto;
+            width: 23%;
+          }
+
+        .desc {
+            flex: 0 0 auto;
+            width: 50%;
+            }
+
+        #estudio {
+                margin: 6em 0em;
+            }
+        #contacto {
+            margin: 6em 0em 30em;
+        }
+
+        .margin-bottom {
+            margin-bottom: 3em;
+        }
+
 }
 /* DESKTOP */
 @media only screen and (min-width: 1366px)
@@ -95,4 +139,32 @@
         .hamburger {
             display: none;
         }
+
+        .title {
+            flex: 0 0 auto;
+            width: 23%;
+          }
+
+        .desc {
+            flex: 0 0 auto;
+            width: 30%;
+            }
+
+        #estudio, #trabajos{
+                margin: 6em 0em;
+            }
+        #contacto {
+            margin: 6em 0em 30em;
+        }
+
+        #practica {
+            margin: 6em 0em 25em
+        }
+
+        .margin-bottom {
+            margin-bottom: 3em;
+        }
+
+        
+        
 }

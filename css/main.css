@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 body {
   font-family: Oswald;
-  font-size: 16pt;
+  font-size: 15pt;
   font-weight: 300; }
 
 a {
   color: black;
   text-decoration: none; }
+
+h2 {
+  font-size: 15pt;
+  font-weight: 500; }
 
 .flexNav {
   display: flex;
@@ -81,6 +85,9 @@ a {
 .mobile-nav.is-active {
   left: 0; }
 
+.margin-bottom {
+  margin-bottom: 5em; }
+
 .imageBox {
   display: flex;
   width: 100%;
@@ -96,6 +103,21 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+#estudio, #practica {
+  margin: 2em 0em; }
+
+#contacto {
+  margin: 2em 0em 60vh; }
+
+.title {
+  flex: 0 0 auto;
+  width: 80%;
+  margin-bottom: 0.3em; }
+
+.desc {
+  flex: 0 0 auto;
+  width: 80%; }
 
 footer {
   font-size: 14px;
@@ -645,7 +667,19 @@ footer {
   .mobile-nav {
     display: none; }
   .hamburger {
-    display: none; } }
+    display: none; }
+  .title {
+    flex: 0 0 auto;
+    width: 23%; }
+  .desc {
+    flex: 0 0 auto;
+    width: 30%; }
+  #estudio {
+    margin: 6em 0em; }
+  #contacto {
+    margin: 6em 0em 30em; }
+  .margin-bottom {
+    margin-bottom: 3em; } }
 
 /* iPad Pro */
 @media only screen and (min-width: 1024px) {
@@ -660,7 +694,19 @@ footer {
   .mobile-nav {
     display: none; }
   .hamburger {
-    display: none; } }
+    display: none; }
+  .title {
+    flex: 0 0 auto;
+    width: 23%; }
+  .desc {
+    flex: 0 0 auto;
+    width: 50%; }
+  #estudio {
+    margin: 6em 0em; }
+  #contacto {
+    margin: 6em 0em 30em; }
+  .margin-bottom {
+    margin-bottom: 3em; } }
 
 /* DESKTOP */
 @media only screen and (min-width: 1366px) {
@@ -675,7 +721,21 @@ footer {
   .mobile-nav {
     display: none; }
   .hamburger {
-    display: none; } }
+    display: none; }
+  .title {
+    flex: 0 0 auto;
+    width: 23%; }
+  .desc {
+    flex: 0 0 auto;
+    width: 30%; }
+  #estudio, #trabajos {
+    margin: 6em 0em; }
+  #contacto {
+    margin: 6em 0em 30em; }
+  #practica {
+    margin: 6em 0em 25em; }
+  .margin-bottom {
+    margin-bottom: 3em; } }
 
 * {
   margin: 0px;

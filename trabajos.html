@@ -11,7 +11,7 @@
         <header>
             <nav class="flexNav">
                 <div><a href="index.html"><h1 class="logo">KRIEGER ALBA POSSE</h1></a></div>
-                <div>
+                <div class="menu">
                     <ul class="flexNav mainButton">
                         <li><a href="estudio.html">ESTUDIO</a></li>
                         <li class="active"><a href="trabajos.html">TRABAJOS</a></li>
@@ -20,30 +20,48 @@
                         <li><a href="https://www.instagram.com/"><img src="img/ig.svg" alt="instagram" height="20px"></a></li>
                     </ul>
                 </div>
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
             </nav>
         </header>
+            <nav class="mobile-nav">
+                <li class="active"><a href="estudio.html">ESTUDIO</a></li>
+                <li><a href="trabajos.html">TRABAJOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="practica.html">PRÁCTICA</a></li>
+                <li><a href="https://www.instagram.com/"><img src="img/ig.svg" alt="instagram" height="20px"></a></li>
+            </nav>
 
     <section id="trabajos">
-        <div><h2>PROYECTOS</h2></div>
-        <div>
-            <img src="img/projects/1.jpg" alt="">
-            <img src="img/projects/2.jpg" alt="">
-            <img src="img/projects/3.jpg" alt="">
-            <img src="img/projects/4.jpg" alt="">
-        </div>
-        <div><h2>CONSTRUCCIÓN</h2></div>
-        <div>
-            <img src="img/construction/1.jpg" alt="">
-            <img src="img/construction/2.jpg" alt="">
-            <img src="img/construction/3.jpg" alt="">
-            <img src="img/construction/4.jpg" alt="">
-        </div>
-        <div><h2>SITE SPECIFIC</h2></div>
-        <div>
-            <img src="img/sitespecific/1.jpg" alt="">
-            <img src="img/sitespecific/2.jpg" alt="">
-            <img src="img/sitespecific/3.jpg" alt="">
-            <img src="img/sitespecific/4.jpg" alt="">
+        <div class="container">
+            <div class="row margin-bottom">
+                <div class="title"><h2>PROYECTOS</h2></div>
+                <div class="desc">
+                    <img src="img/projects/1.jpg" alt="1">
+                    <img src="img/projects/2.jpg" alt="2">
+                    <img src="img/projects/3.jpg" alt="3">
+                    <img src="img/projects/4.jpg" alt="4">
+                </div>
+            </div>
+            <div class="row margin-bottom">
+                <div class="title"><h2>CONSTRUCCIÓN</h2></div>
+                <div class="desc">
+                    <img src="img/construction/1.jpg" alt="1">
+                    <img src="img/construction/2.jpg" alt="2">
+                    <img src="img/construction/3.jpg" alt="3">
+                    <img src="img/construction/4.jpg" alt="4">
+                </div>
+            </div>
+            <div class="row margin-bottom">
+                <div class="title"><h2>SITE SPECIFIC</h2></div>
+                <div class="desc">
+                    <img src="img/sitespecific/1.jpg" alt="1">
+                    <img src="img/sitespecific/2.jpg" alt="2">
+                    <img src="img/sitespecific/3.jpg" alt="3">
+                    <img src="img/sitespecific/4.jpg" alt="4">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -51,5 +69,7 @@
         <p>Todos los derechos reservados.</p>
     </footer>
     
+    <script src="js/main.js"></script>
+
 </body>
 </html>
