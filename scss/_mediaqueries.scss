@@ -53,18 +53,55 @@
 
     .desc {
         flex: 0 0 auto;
-        width: 30%;
+        width: 40%;
         }
 
-    #estudio {
-            margin: 6em 0em;
+    #practica .desc-img {
+        width: 70%;
+    }
+
+    #estudio, #trabajos {
+            margin: 2em 0em;
         }
     #contacto {
-        margin: 6em 0em 30em;
+        margin: 2em 0em 30em;
     }
 
     .margin-bottom {
         margin-bottom: 3em;
+    }
+
+    .img-container-profile {
+        max-width: 230px;
+        height: 160px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .img-container-one {
+        max-width: 500px;
+        height: 180px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .img-container-two {
+        max-width: 100px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .img-container-three {
+        max-width: 400px;
+        height: 180px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .img-container-four {
+        max-width: 200px;
+        height: 180px;
+        margin-bottom: 10px;
     }
 
 }
@@ -103,7 +140,7 @@
             width: 50%;
             }
 
-        #estudio {
+        #estudio, #practica {
                 margin: 6em 0em;
             }
         #contacto {
@@ -112,6 +149,45 @@
 
         .margin-bottom {
             margin-bottom: 3em;
+        }
+
+        .desc-img {
+            flex: 0 0 auto;
+            width: 70%;
+        
+        }
+
+        .img-container-profile {
+            max-width: 350px;
+            height: 250px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .img-container-one {
+            max-width: 500px;
+            height: 180px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .img-container-two {
+            max-width: 100px;
+            height: 180px;
+            margin-bottom: 10px;
+        }
+
+        .img-container-three {
+            max-width: 400px;
+            height: 180px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .img-container-four {
+            max-width: 200px;
+            height: 180px;
+            margin-bottom: 10px;
         }
 
 }
@@ -140,6 +216,10 @@
             display: none;
         }
 
+        .contain {
+            max-width: 1320px;
+        }
+
         .title {
             flex: 0 0 auto;
             width: 23%;
@@ -150,19 +230,49 @@
             width: 30%;
             }
 
-        #estudio, #trabajos{
-                margin: 6em 0em;
+        #estudio, #trabajos, #practica {
+                margin: 0em 0em;
             }
-        #contacto {
-            margin: 6em 0em 30em;
-        }
 
-        #practica {
-            margin: 6em 0em 25em
-        }
+        #contacto{
+                margin: 0em 0em 24em;
+            }
 
+         
         .margin-bottom {
             margin-bottom: 3em;
+        }
+
+        .desc-img {
+            flex: 0 0 auto;
+            width: 70%;
+        
+        }
+
+        .img-container-one {
+            max-width: 500px;
+            height: 180px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .img-container-two {
+            max-width: 100px;
+            height: 180px;
+            margin-bottom: 10px;
+        }
+
+        .img-container-three {
+            max-width: 400px;
+            height: 180px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .img-container-four {
+            max-width: 200px;
+            height: 180px;
+            margin-bottom: 10px;
         }
 
         

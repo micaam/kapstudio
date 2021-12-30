@@ -1,8 +1,11 @@
+//VARS
+
+$greyfoot: #CAC9C9;
+
 //IMPORT
 @import "typeface";
-@import "colors";
-@import "home";
-@import "bootstrap";
+@import "base";
+@import "images";
 @import "mediaqueries";
 
 
@@ -11,3 +14,4 @@
     margin:0px;
     padding: 0px;
 }
+
