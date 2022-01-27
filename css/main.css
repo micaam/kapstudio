@@ -163,37 +163,33 @@ footer {
   width: 100%;
   height: 160px;
   background-color: #b3b3b3;
-  overflow: hidden;
-  margin-bottom: 10px;
-  margin-right: 0px; }
+  overflow: hidden; }
 
 .img-container-two {
   width: 100%;
-  height: 160px;
+  height: 430px;
   background-color: #b3b3b3;
-  overflow: hidden;
-  margin-bottom: 10px;
-  margin-right: 0px; }
+  overflow: hidden; }
 
 .img-container-three {
   width: 100%;
   height: 160px;
   background-color: #b3b3b3;
-  overflow: hidden;
-  margin-bottom: 10px;
-  margin-right: 0px; }
+  overflow: hidden; }
 
 .img-container-four {
   width: 100%;
   height: 160px;
   background-color: #b3b3b3;
-  overflow: hidden;
-  margin-bottom: 10px;
-  margin-right: 0px; }
+  overflow: hidden; }
 
 .img-fit {
   width: 100%;
   object-fit: contain; }
+
+.calle {
+  margin-right: 0px;
+  margin-bottom: 10px; }
 
 /* MOBILE PHONE */
 @media only screen and (max-width: 320px) {
@@ -240,22 +236,18 @@ footer {
     margin-right: 10px; }
   .img-container-one {
     max-width: 500px;
-    height: 180px;
-    margin-bottom: 10px;
-    margin-right: 10px; }
+    height: 180px; }
   .img-container-two {
     max-width: 100px;
-    height: 180px;
-    margin-bottom: 10px; }
+    height: 180px; }
   .img-container-three {
     max-width: 400px;
-    height: 180px;
-    margin-bottom: 10px;
-    margin-right: 10px; }
+    height: 180px; }
   .img-container-four {
     max-width: 200px;
-    height: 180px;
-    margin-bottom: 10px; } }
+    height: 180px; }
+  .calle {
+    margin-right: 10px; } }
 
 /* iPad Pro */
 @media only screen and (min-width: 1024px) {
@@ -289,26 +281,21 @@ footer {
   .img-container-profile {
     max-width: 350px;
     height: 250px;
-    margin-bottom: 10px;
-    margin-right: 10px; }
+    margin-bottom: 10px; }
   .img-container-one {
     max-width: 500px;
-    height: 180px;
-    margin-bottom: 10px;
-    margin-right: 10px; }
+    height: 180px; }
   .img-container-two {
     max-width: 100px;
-    height: 180px;
-    margin-bottom: 10px; }
+    height: 180px; }
   .img-container-three {
     max-width: 400px;
-    height: 180px;
-    margin-bottom: 10px;
-    margin-right: 10px; }
+    height: 180px; }
   .img-container-four {
     max-width: 200px;
-    height: 180px;
-    margin-bottom: 10px; } }
+    height: 180px; }
+  .calle {
+    margin-right: 10px; } }
 
 /* DESKTOP */
 @media only screen and (min-width: 1366px) {
@@ -340,25 +327,27 @@ footer {
     margin-bottom: 3em; }
   .desc-img {
     flex: 0 0 auto;
-    width: 70%; }
-  .img-container-one {
-    max-width: 500px;
-    height: 180px;
-    margin-bottom: 10px;
+    width: 70%;
+    max-width: 800px; }
+  .img-container-33 {
+    max-width: 196.666666px;
+    height: 260px; }
+  .img-container-40 {
+    max-width: 250px;
+    height: 232px; }
+  .img-container-50 {
+    max-width: 300px;
+    height: 225px; }
+  .img-container-60 {
+    max-width: 350px;
+    height: 232px; }
+  .img-container-67 {
+    max-width: 403.444px;
+    height: 260px; }
+  .calle {
     margin-right: 10px; }
-  .img-container-two {
-    max-width: 100px;
-    height: 180px;
-    margin-bottom: 10px; }
-  .img-container-three {
-    max-width: 400px;
-    height: 180px;
-    margin-bottom: 10px;
-    margin-right: 10px; }
-  .img-container-four {
-    max-width: 200px;
-    height: 180px;
-    margin-bottom: 10px; } }
+  .hidden {
+    overflow: hidden; } }
 
 * {
   margin: 0px;

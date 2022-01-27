@@ -81,27 +81,25 @@
     .img-container-one {
         max-width: 500px;
         height: 180px;
-        margin-bottom: 10px;
-        margin-right: 10px;
     }
 
     .img-container-two {
         max-width: 100px;
         height: 180px;
-        margin-bottom: 10px;
     }
 
     .img-container-three {
         max-width: 400px;
         height: 180px;
-        margin-bottom: 10px;
-        margin-right: 10px;
     }
 
     .img-container-four {
         max-width: 200px;
         height: 180px;
-        margin-bottom: 10px;
+    }
+
+    .calle {
+        margin-right: 10px;
     }
 
 }
@@ -161,33 +159,30 @@
             max-width: 350px;
             height: 250px;
             margin-bottom: 10px;
-            margin-right: 10px;
         }
 
         .img-container-one {
             max-width: 500px;
             height: 180px;
-            margin-bottom: 10px;
-            margin-right: 10px;
         }
 
         .img-container-two {
             max-width: 100px;
             height: 180px;
-            margin-bottom: 10px;
         }
 
         .img-container-three {
             max-width: 400px;
             height: 180px;
-            margin-bottom: 10px;
-            margin-right: 10px;
         }
 
         .img-container-four {
             max-width: 200px;
             height: 180px;
-            margin-bottom: 10px;
+        }
+
+        .calle {
+            margin-right: 10px;
         }
 
 }
@@ -246,33 +241,41 @@
         .desc-img {
             flex: 0 0 auto;
             width: 70%;
+            max-width: 800px;
         
         }
 
-        .img-container-one {
-            max-width: 500px;
-            height: 180px;
-            margin-bottom: 10px;
+        .img-container-33 {
+            max-width: 196.666666px;
+            height: 260px;
+        }
+
+        .img-container-40 {
+            max-width: 250px;
+            height: 232px;
+        }
+
+        .img-container-50 {
+            max-width: 300px;
+            height: 225px;
+        }
+
+        .img-container-60 {
+            max-width: 350px;
+            height: 232px;
+        }
+
+        .img-container-67 {
+            max-width: 403.444px;
+            height: 260px;
+        }
+
+        .calle {
             margin-right: 10px;
         }
 
-        .img-container-two {
-            max-width: 100px;
-            height: 180px;
-            margin-bottom: 10px;
-        }
-
-        .img-container-three {
-            max-width: 400px;
-            height: 180px;
-            margin-bottom: 10px;
-            margin-right: 10px;
-        }
-
-        .img-container-four {
-            max-width: 200px;
-            height: 180px;
-            margin-bottom: 10px;
+        .hidden {
+            overflow: hidden;
         }
 
         
