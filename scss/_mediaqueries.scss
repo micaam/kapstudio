@@ -71,6 +71,12 @@
         margin-bottom: 3em;
     }
 
+    .desc-img {
+        flex: 0 0 auto;
+        max-width: 800px;
+    
+    }
+
     .img-container-profile {
         max-width: 230px;
         height: 160px;
@@ -78,24 +84,29 @@
         margin-right: 10px;
     }
 
-    .img-container-one {
-        max-width: 500px;
-        height: 180px;
+    .img-container-33 {
+        max-width: 196.666666px;
+        height: 260px;
     }
 
-    .img-container-two {
-        max-width: 100px;
-        height: 180px;
+    .img-container-40 {
+        max-width: 250px;
+        height: 232px;
     }
 
-    .img-container-three {
-        max-width: 400px;
-        height: 180px;
+    .img-container-50 {
+        max-width: 300px;
+        height: 225px;
     }
 
-    .img-container-four {
-        max-width: 200px;
-        height: 180px;
+    .img-container-60 {
+        max-width: 350px;
+        height: 232px;
+    }
+
+    .img-container-67 {
+        max-width: 403.444px;
+        height: 260px;
     }
 
     .calle {
@@ -152,7 +163,7 @@
         .desc-img {
             flex: 0 0 auto;
             width: 70%;
-        
+            max-width: 800px;
         }
 
         .img-container-profile {
@@ -161,24 +172,29 @@
             margin-bottom: 10px;
         }
 
-        .img-container-one {
-            max-width: 500px;
-            height: 180px;
+        .img-container-33 {
+            max-width: 196.666666px;
+            height: 260px;
         }
 
-        .img-container-two {
-            max-width: 100px;
-            height: 180px;
+        .img-container-40 {
+            max-width: 250px;
+            height: 232px;
         }
 
-        .img-container-three {
-            max-width: 400px;
-            height: 180px;
+        .img-container-50 {
+            max-width: 300px;
+            height: 225px;
         }
 
-        .img-container-four {
-            max-width: 200px;
-            height: 180px;
+        .img-container-60 {
+            max-width: 350px;
+            height: 232px;
+        }
+
+        .img-container-67 {
+            max-width: 403.444px;
+            height: 260px;
         }
 
         .calle {
@@ -274,9 +290,7 @@
             margin-right: 10px;
         }
 
-        .hidden {
-            overflow: hidden;
-        }
+    
 
         
         

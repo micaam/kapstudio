@@ -18,33 +18,7 @@
 
 /* TRABAJOS */
 
-.img-container-one {
-    width: 100%;
-    height: 160px;
-    background-color: rgb(179, 179, 179);
-    overflow: hidden;
-}
 
-.img-container-two {
-    width: 100%;
-    height: 430px;
-    background-color: rgb(179, 179, 179);
-    overflow: hidden;
-}
-
-.img-container-three {
-    width: 100%;
-    height: 160px;
-    background-color: rgb(179, 179, 179);
-    overflow: hidden;
-}
-
-.img-container-four {
-    width: 100%;
-    height: 160px;
-    background-color: rgb(179, 179, 179);
-    overflow: hidden;
-}
 
 .img-fit {
     width: 100%;
@@ -54,4 +28,8 @@
 .calle {
     margin-right: 0px;
     margin-bottom: 10px;
+}
+
+.hidden {
+    overflow: hidden;
 }
